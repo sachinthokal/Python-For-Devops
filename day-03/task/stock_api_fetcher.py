@@ -32,7 +32,6 @@ def user_input():
 
 
 if __name__ == "__main__":
-
     org = user_input()   
     data = get_stock_details(org)
     save_to_file(data)
