@@ -1,0 +1,10 @@
+{
+    "ec2": [
+        "sachin-ec2_2",
+        "sachin-ec2_1"
+    ],
+    "s3": [
+        "amzn-devops-sachin",
+        "amzn-devops-sachin2"
+    ]
+}
