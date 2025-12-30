@@ -12,4 +12,5 @@
 # Day 01 – System Monitoring
 # Used to fetch CPU, memory, disk metrics
 psutil>=5.9.0
+boto3
 
