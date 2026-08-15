@@ -1,0 +1,3 @@
+# Python Foundations - dependencies
+# psutil: cross-platform library to read CPU / memory / disk metrics
+psutil>=5.9.0

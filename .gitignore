@@ -1,8 +1,32 @@
-venv
-env
-*/.DS_Store
+# Local Claude Code context (not part of the course)
+CLAUDE.md
+
+# Instructor-only material (recording plans, scripts) — not part of the course
+_instructor/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
 .DS_Store
-*/*.pyc
-*/__pycache__/*
-__pycache__/*.pyc
+
+# Python bytecode / caches (recursive)
+__pycache__/
 *.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Generated outputs from example/practice scripts
+log_summary.txt
+log_summary.json
+log_counts.json
+aws_report.json
+github_user.json
+demo.txt
+demo.json
+
+# CDK
+cdk.out/

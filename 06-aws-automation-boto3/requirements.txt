@@ -1,0 +1,6 @@
+# AWS automation - dependencies
+# boto3: the AWS SDK for Python
+boto3>=1.34.0
+
+# For the optional CDK demo (examples/cdk_demo), install separately:
+#   pip install aws-cdk-lib constructs

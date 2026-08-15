@@ -1,0 +1,10 @@
+# AI Agents for DevOps - dependencies
+# Local, private LLM agents with LangChain + LangGraph + Ollama.
+# Tested with LangChain / LangGraph 1.x (the `create_agent` API).
+langchain>=1.0          # provides the modern create_agent() helper
+langchain-core>=1.0
+langchain-ollama>=1.0
+langgraph>=1.0          # StateGraph / ToolNode for the "under the hood" build
+
+# For the deterministic unit tests (no LLM required):
+pytest>=8.0.0
